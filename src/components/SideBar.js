@@ -1,6 +1,6 @@
-import Profile from './Profile.js'
-import Suggestions from './Suggestions.js'
-import Trademark from './Trademark.js'
+import Profile from './components/Profile.js';
+import Suggestions from './components/Suggestions.js';
+import Trademark from './components/Trademark.js';
 
 export default function SideBar() {
     return (

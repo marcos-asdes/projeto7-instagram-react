@@ -1,6 +1,6 @@
-import Top from './Top'
-import StoriesAndFeed from './StoriesAndFeed'
-import SideBar from './SideBar'
+import Top from './components/Top';
+import StoriesAndFeed from './components/StoriesAndFeed';
+import SideBar from './components/SideBar';
 
 export default function App() {
     return (

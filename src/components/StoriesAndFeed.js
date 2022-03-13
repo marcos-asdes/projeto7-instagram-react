@@ -1,5 +1,5 @@
-import Stories from './Stories.js';
-import Feed from './Feed.js';
+import Stories from './components/Stories.js';
+import Feed from './components/Feed.js';
 
 export default function StoriesAndFeed() {
     return (
