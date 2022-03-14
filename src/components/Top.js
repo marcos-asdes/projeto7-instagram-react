@@ -4,7 +4,7 @@ import IconsTop from './components/IconsTop.js';
 
 export default function Top() {
     return (
-        <div>
+        <div className="Top">
             <Logo />
             <SearchBar />
             <IconsTop />

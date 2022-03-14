@@ -1,3 +1,4 @@
+/* -------------------------------------------------- RESET CSS -------------------------------------------------- */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,10 +48,36 @@ table {
     border-spacing: 0;
 }
 
+/* -------------------------------------------------- END RESET CSS -------------------------------------------------- */
+
+/* -------------------------------------------------- START PROJECT CSS -------------------------------------------------- */
+
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 body {
     background-color: #FAFAFA;
 }
 
 * {
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
 }
+
+/* component Top */
+.Top {
+    position: fixed;
+    z-index: 20;
+    background-color: yellow; /* white */
+    top: 0px;
+    left: 0px;
+    height: 54px;
+    width: 932px;
+    margin: auto;
+    border-bottom: 1px solid #DBDBDB;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
