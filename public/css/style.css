@@ -1,6 +1,7 @@
 /* import font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
+/* all */
 body {
     background-color: #FAFAFA;
 }
@@ -10,19 +11,100 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-/* component Top */
-.Top {
-    position: fixed;
-    z-index: 20;
-    background-color: yellow; /* white */
-    top: 0px;
-    left: 0px;
-    height: 54px;
+img:hover {
+    cursor: pointer;
+}
+
+ion-icon {
+    font-size: 22px;
+}
+
+ion-icon:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* component App */
+.App {
     width: 100vw;
-    margin: auto;
+}
+
+/* component Top */
+.CenterTopInCSS {
+    position:fixed;
+    z-index: 20;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
     border-bottom: 1px solid #DBDBDB;
+}
+
+.Top {
+    width: 932px;
+    height: 54px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
 }
 
+/* component Logo */
+.Logo {
+    display: flex;
+    width: 165px;
+    height: 29px;
+    justify-content: space-between;
+    vertical-align: top;
+    margin: auto 0;    
+}
+
+/* component LogoTxt */
+.LogoTxt img {
+    width: 103px;
+    height: 29px;
+    margin: 0;
+    padding: 0;
+}
+
+/* component Spacer */
+.Spacer {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+}
+
+/* component SearchBar */
+.SearchBar {
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin: auto 0;
+}
+
+/* class search */
+.search {
+    background-color: #FAFAFA;
+    height: 26px;
+    width: 215px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    line-height: 14px;
+    outline: 0;
+    border:none;
+    border-radius: 3px;
+}
+
+/* component NavigationBar */
+.NavigationBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.NavigationBar div {
+    margin: 0 0 0 22.5px;    
+}
