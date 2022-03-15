@@ -5,6 +5,7 @@ export default function StoriesAndFeed() {
     return (
         <div className='StoriesAndFeed'>
             <Stories />
+            <Feed />
         </div>
     )
 }
