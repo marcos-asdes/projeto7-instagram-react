@@ -108,3 +108,76 @@ ion-icon:hover {
 .NavigationBar div {
     margin: 0 0 0 22.5px;    
 }
+
+/* component StoriesAndFeed */
+.StoriesAndFeed {
+    width: 614px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* component Stories */
+.Stories {
+    width: 614px;
+    height: 114px;
+    margin-top: 34px;
+    margin-bottom: 24px;
+    background: white;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.Story {
+    width: 66px;
+    text-align: center;
+    margin: 0 7px;    
+}
+
+.Story img {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;    
+}
+
+.Story:first-child {
+    margin-left: 18px;    
+}
+
+.storyImg {
+    display: flex;
+    width: 66px;
+    height: 66px;
+    background: url("../assets/img/stories_background.jpg");
+    align-items: center;
+    background-size: 66px;
+    justify-content: center;
+    margin-bottom: 6px;    
+}
+
+.storyUser p {
+    font-size: 12px;
+    line-height: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+
+.Story:hover {
+    cursor: pointer;
+}
+
+.storiesArrow {
+    position: absolute;
+    height: 22px;
+    z-index: 2;
+    background: white;
+    border-radius: 100%;
+    margin-left: 579px;
+    transform: scale(calc(26/22));    
+}
