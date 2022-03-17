@@ -182,3 +182,101 @@ ion-icon:hover {
     transform: scale(calc(26/22));    
 }
 
+/* component Post */
+.Post {
+    display: flex;
+    flex-direction: column;
+    width: 614px;
+    height: fit-content;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+
+.PostTopBar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px;
+}
+
+.PostTopBar p {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    align-self: center;
+}
+
+.ellipsis {
+    transform: scale(1.5);
+}
+
+.ellipsis:hover {
+    cursor: pointer;
+}
+
+.postOwnerUser {
+    display: flex;
+}
+
+.postOwnerUser img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.postOwnerUser:hover {
+    cursor: pointer;
+}
+
+.PostContent img {
+    width: 100%;
+}
+
+.PostIcons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17.75px;
+    margin-top: 13px;
+}
+
+.iconsLeft {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PostLikes {
+    display: flex;
+    margin: 13px 0;
+    align-items: center;
+}
+
+.PostLikes img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 17px;    
+}
+
+.PostLikes strong {
+    font-weight: bold;
+    margin: 0 2px;
+}
+
+.PostLikes strong:hover {
+    cursor: pointer;
+}
+
+.PostLikes p {
+    display: flex;
+    font-size: 14px;
+}
+
+.PostLikes p:hover{
+    cursor: pointer;
+}
